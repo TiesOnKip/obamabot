@@ -10,7 +10,7 @@ module.exports = {
     async execute(client) { 
 
         client.user.setActivity({
-            name: 'Little Kids',
+            name: 'Twitch Stream',
             type: ActivityType.Streaming,
             url: 'https://www.twitch.tv/thisismybathtub'
         });
